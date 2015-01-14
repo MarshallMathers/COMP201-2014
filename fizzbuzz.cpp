@@ -12,6 +12,9 @@ int main()
 			cout << "buzz" << endl;
 		if (i % 3 == 0 && i % 5 == 0)
 			cout << "Fizzbuzz" << endl;
+		else 
+			cout << i << endl;
+
 	}
 	return 0;
 	
